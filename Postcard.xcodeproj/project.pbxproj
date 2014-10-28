@@ -13,6 +13,8 @@
 		01DE2F3019FA00620082AB6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DE2F2F19FA00620082AB6C /* Images.xcassets */; };
 		01DE2F3319FA00620082AB6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DE2F3119FA00620082AB6C /* LaunchScreen.xib */; };
 		01DE2F3F19FA00620082AB6C /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE2F3E19FA00620082AB6C /* PostcardTests.swift */; };
+		01DE2F4919FA092A0082AB6C /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01DE2F4819FA092A0082AB6C /* SagradaFamilia.jpeg */; };
+		01DE2F4B19FA0C030082AB6C /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01DE2F4A19FA0C030082AB6C /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		01DE2F3819FA00620082AB6C /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DE2F3D19FA00620082AB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01DE2F3E19FA00620082AB6C /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		01DE2F4819FA092A0082AB6C /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		01DE2F4A19FA0C030082AB6C /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		01DE2F2619FA00620082AB6C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01DE2F4A19FA0C030082AB6C /* AlbertEinsteinStamp.jpg */,
+				01DE2F4819FA092A0082AB6C /* SagradaFamilia.jpeg */,
 				01DE2F2719FA00620082AB6C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01DE2F2E19FA00620082AB6C /* Main.storyboard in Resources */,
+				01DE2F4919FA092A0082AB6C /* SagradaFamilia.jpeg in Resources */,
+				01DE2F4B19FA0C030082AB6C /* AlbertEinsteinStamp.jpg in Resources */,
 				01DE2F3319FA00620082AB6C /* LaunchScreen.xib in Resources */,
 				01DE2F3019FA00620082AB6C /* Images.xcassets in Resources */,
 			);
@@ -289,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
